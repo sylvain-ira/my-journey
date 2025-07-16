@@ -1,0 +1,105 @@
+
+/* LG - SMALL LAPTOPS: 1024px  - 1280px */
+
+@media (max-width: 72rem) {
+
+
+    /* 1150px /16px =72rem */
+    /* 72re x 16px =1142px */ 
+
+
+
+    html {
+        font-size: 56.25%;
+        /* 9px/ 16px= 56.25% */
+    }
+    
+    .features-grid-container{
+        column-gap: 2rem;
+    }
+    .cta-section{
+        margin-bottom: 10rem;
+    }
+
+/* MD -  TABLETS: 768PX - 1024px */
+    
+}
+@media (max-width: 51rem){
+    /* 815px /16px =51rem */
+    /* 51rem *16px = 816px */
+
+ html {
+        font-size: 50%;
+        /* 8px/ 16px= 50%% */
+    }
+    
+.hero-paragraph {
+    text-align: center;
+}
+.features-grid-container{
+    row-gap: 7rem;
+}
+
+
+
+}
+
+/* SM -  PHONE LANDSSCAPE: 576PX - 768PX */
+
+@media(max-width:44rem ){
+
+    /* 700px /16px = 44rem */ 
+    /* 44rem * 16px = 704px */
+
+
+    html {
+        font-size: 43.75%;
+        /* 7px/ 16px= 43.75% */
+
+    }
+
+    .cta-card{
+        padding: 4rem 8rem;
+    }
+    .features-section{
+        margin-bottom: 10rem;
+    }
+    .features-grid-container{
+        row-gap: 5rem;
+        column-gap: 1rem;
+    }
+}
+
+/* XM -  PHONE PORTRAINT: <576PX */
+
+@media(max-width: 34rem){
+
+    /* 530px / 16px = 34rem */
+    /*  34rem * 16px = 544px */
+
+    html {
+        font-size: 37.5%;
+        /* 6px/ 16px= 37.5% */
+
+    }
+
+    .hero-heading-break{
+        display: none;
+    }
+    .hero-section {
+        height: auto;
+    }
+    .features-grid-container{
+
+        grid-template-columns: 1fr;
+
+    }
+
+.feature-img-swap-order{
+
+    grid-row: auto;
+    grid-column: auto;
+
+
+}
+}

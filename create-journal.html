@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create journal</title>
+</head>
+<body>
+    <h1>Create journal</h1>
+   <form action="/api/v2/journals" method="post">
+    <label for="main-title">title</label>
+    <input type="text" name="title" id="main-title" minlength="3" required>
+    <label for="journal-type"> journaltype</label>
+    <select name="journal" id="journal-type" required>
+        <option value="star">star</option>
+        <option value="poltician">poltician</option>
+        <option value="engineer">engineer</option>
+    </select>
+    <label for="journal-entry">journal entry</label>
+    <textarea name="entry" id="journal-entry" rows="5" cols="30" minlength="10" required></textarea>
+    <button type="reset"> cancel</button>
+    <button type="submit">submit</button>
+   </form>
+    
+</body>
+</html>
